@@ -1,0 +1,64 @@
+body{
+    background-image: url(immagini/background.jpg);
+    background-size:cover;
+}
+
+.contenitore{
+   background-color: rgba(0, 0, 0, 0.5) ;
+   border-radius: 25px;
+   margin: auto;
+   padding: 5%;
+   width: 55%;
+   color: white;
+}
+
+img {
+    width: 200px;
+    padding-top: 25px;
+    padding-bottom: 1px;
+}
+
+div > header, nav {
+    text-align: center;
+}
+
+header > h1{
+    color: limegreen;
+    padding: 1px;
+    margin: 1%;
+}
+
+nav{
+    background-color: limegreen;
+    padding: 10px;
+    margin-bottom: 20px ;
+}
+
+main > div{
+    margin: 20px 0px;
+}
+
+main h3 {
+    display: inline;
+    
+}
+#batteria1{
+    background-color: blue ;
+    border-radius: 5px;
+    width: 40%;
+    padding: 10px;
+}
+
+#batteria2{
+    background-color: purple ;
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px;
+}
+
+#batteria3{
+    background-color: red ;
+    border-radius: 5px;
+    width: 15%;
+    padding: 10px;
+}
